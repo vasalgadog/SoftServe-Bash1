@@ -26,7 +26,7 @@ Ejercicios del taller de bash del curso de DevOps de SoftServe.
 
 **Prueba**:
 
-    $ ./hiuser.sh
+    :~$ ./hiuser.sh
     Escribe tu nombre
     Juan
     Hola Juan
@@ -41,7 +41,7 @@ Ejercicios del taller de bash del curso de DevOps de SoftServe.
 
 **Prueba**:
 
-    $ ./aritmetica.sh
+    :~$ ./aritmetica.sh
     Escribe un numero
     1
     Escribe otro numero
@@ -63,7 +63,7 @@ Ejercicios del taller de bash del curso de DevOps de SoftServe.
 
 **Prueba**:
 
-    $ ./ejercicioIf.sh
+    :~$ ./ejercicioIf.sh
     Ingrese un número
     10
     El número es pequeño
@@ -78,7 +78,7 @@ Ejercicios del taller de bash del curso de DevOps de SoftServe.
 
 **Prueba**:
 
-    $ ./bucleFor.sh
+    :~$ ./bucleFor.sh
     1
     2
     3
@@ -101,7 +101,7 @@ Ejercicios del taller de bash del curso de DevOps de SoftServe.
 
 **Prueba**:
 
-    $ ./bucleWhile.sh
+    :~$ ./bucleWhile.sh
     Ingrese la contraseña
     asd
     Acceso denegado
@@ -121,9 +121,9 @@ Ejercicios del taller de bash del curso de DevOps de SoftServe.
 
 **Prueba**:
 
-    $ ./existencia.sh
+    :~$ ./existencia.sh
     Archivo creado
-    $ ./existencia.sh
+    :~$ ./existencia.sh
     El archivo existe
 ## Ejercicio 8: Operaciones con archivos y directorios
 **Objetivo**: Practique la manipulación de archivos y directorios.
@@ -139,7 +139,7 @@ Ejercicios del taller de bash del curso de DevOps de SoftServe.
 
 **Prueba**:
 
-    $ ./operacionesArchivos.sh
+    :~$ ./operacionesArchivos.sh
     file1.txt  file2.txt  file3.txt  file4.txt  file5.txt
 ## Ejercicio 9: Grep y Find
 **Objetivo**: aprender a buscar archivos y texto dentro de archivos.
@@ -155,7 +155,7 @@ Ejercicios del taller de bash del curso de DevOps de SoftServe.
 
 **Prueba**:
 
-    $ greepYfind.sh
+    :~$ greepYfind.sh
     Palabra a buscar
     sit
     La palabra 'sit' fue encontrada enlogfile. txt
@@ -166,7 +166,6 @@ Ejercicios del taller de bash del curso de DevOps de SoftServe.
     ./logfile.txt
     ./parrafo3.txt
     ./parrafo2.txt
-
 ## Ejercicio 10: Argumentos y parámetros
 **Objetivo**: trabajar con argumentos de línea de comandos.
 
@@ -180,5 +179,7 @@ Ejercicios del taller de bash del curso de DevOps de SoftServe.
 
 **Prueba**:
 
-    $ ./encuentraArchivo.sh ../Ej9 parrafo1.txt
+    :~$ ./encuentraArchivo.sh ../Ej9 parrafo1.txt
     Archivo encontrado
+    :~$ ./encuentraArchivo.sh ../Ej9 hello.sh
+    Archivo no encontrado
